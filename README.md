@@ -5,7 +5,7 @@ This is my **personal portfolio** built using **Angular**, showcasing my skills,
 ## 🌐 Live Demo
 
 Check out the live version of my portfolio:  
-[🔗 Click Here](https://akashkhedekar8080.github.io/portfolio/) _(Replace with the actual link if different)_
+[🔗 Click Here](https://portfolio-akash-six.vercel.app/home) _(Replace with the actual link if different)_
 
 ---
 
