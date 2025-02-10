@@ -1,0 +1,50 @@
+<section class="projects-section">
+  <div class="section-header">
+    <h2 class="section-title">Projects</h2>
+    <div class="title-underline"></div>
+  </div>
+
+  <div class="projects-grid">
+    @for (project of projects; track project.title) {
+    <div class="project-card">
+      <div class="project-content">
+        <h3 class="project-title">{{ project.title }}</h3>
+        <p class="project-description">{{ project.description }}</p>
+
+        <!-- Achievements Section -->
+        @if (project.achievements.length > 0) {
+        <div class="achievements">
+          <h4 class="achievements-title">Achievements</h4>
+          <ul class="achievements-list">
+            @for (achieve of project.achievements; track achieve) {
+            <li class="achievement-item">{{ achieve }}</li>
+            }
+          </ul>
+        </div>
+        }
+
+        <!-- Technologies Section -->
+        <div class="tech-stack">
+          @for (tech of project.technologies; track tech) {
+          <span class="tech-tag">{{ tech }}</span>
+          }
+        </div>
+
+        <!-- Links Section -->
+        <div class="project-links">
+          @if (project.githubLink) {
+          <a
+            [href]="project.githubLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            <i class="fab fa-github"></i> Code
+          </a>
+          }
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</section>
