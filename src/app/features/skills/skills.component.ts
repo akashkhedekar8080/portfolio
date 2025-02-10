@@ -13,7 +13,9 @@ export class SkillsComponent {
     {
       title: "Programming Languages",
       skills: [
-        { name: "TypeScript", icon: "fab fa-js" },
+        { name: "HTML5", icon: "fab fa-html5" },
+        { name: "CSS3", icon: "fab fa-css3-alt" },
+        { name: "TypeScript", icon: "fas fa-code" },
         { name: "JavaScript", icon: "fab fa-js-square" },
         { name: "C++", icon: "fas fa-code" },
         { name: "Python", icon: "fab fa-python" },
