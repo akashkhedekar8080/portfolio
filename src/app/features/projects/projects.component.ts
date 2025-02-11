@@ -36,7 +36,7 @@ export class ProjectsComponent {
       description:
         "A security-focused browser solution designed for online assessments, preventing unauthorized access and monitoring suspicious window-switching behavior.",
       achievements: [
-        "Developed 'App on Top' feature, preventing unauthorized applications from overlaying the secure browser.",
+        "Developed 'App on Top' feature enabling secure application overlay above browser window, maintaining exam monitoring integrity",
         "Implemented a comprehensive window-switching detection system to monitor Ctrl+Tab, Shift+Tab, and window-focus events, ensuring exam integrity.",
         "Reduced security incidents by 75%, enhancing the reliability of online proctoring solutions.",
       ],
@@ -117,7 +117,7 @@ export class ProjectsComponent {
         "Angular",
         "NgRx",
         "TypeScript",
-        "REST API",
+        "REST API Integration",
         "HTML",
         "SCSS",
         "Angular Material",
