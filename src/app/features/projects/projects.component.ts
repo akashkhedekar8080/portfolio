@@ -86,7 +86,7 @@ export class ProjectsComponent {
       technologies: ["Swift"],
     },
     {
-      title: "Meetarise (Freelance Project)",
+      title: "Meetarise",
       description:
         "A modern web dashboard built with React and Material UI, featuring advanced state management and real-time data visualization.",
       achievements: [
