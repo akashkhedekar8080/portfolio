@@ -86,6 +86,51 @@ export class ProjectsComponent {
       technologies: ["Swift"],
     },
     {
+      title: "TaskNova",
+      description:
+        "An enterprise-grade task management platform built with Angular 18 and Django REST Framework. Features JWT authentication, role-based access control, and real-time collaboration tools for teams.",
+      achievements: [
+        "Architected full-stack enterprise system with Angular 18 frontend and Django REST Framework backend implementing JWT authentication and role-based access control.",
+        "Developed modular Angular architecture with TypeScript, RxJS, and Angular Material, featuring lazy-loaded modules and reactive forms.",
+        "Reduced page load times by 35% through optimized HTTP interceptors and state management patterns.",
+      ],
+      image: "/assets/tasknova.jpg",
+      technologies: [
+        "Angular 18",
+        "Django",
+        "Django REST Framework",
+        "TypeScript",
+        "RxJS",
+        "Angular Material",
+        "JWT Authentication",
+        "Python",
+        "SQLite",
+      ],
+      githubLink: "https://github.com/akashkhedekar8080/tasknova",
+    },
+    {
+      title: "Inkwell",
+      description:
+        "A full-featured Django blogging platform with user authentication, CRUD operations, threaded comments, and email notifications. Built with Bootstrap for responsive design.",
+      achievements: [
+        "Built comprehensive blogging platform with Django 5+ featuring user authentication, post management, and admin controls.",
+        "Implemented threaded comment system with email notifications for post create, update, and delete operations.",
+        "Designed responsive UI with Bootstrap 5, including pagination, modals, and form validation for enhanced user experience.",
+      ],
+      image: "/assets/inkwell.jpg",
+      technologies: [
+        "Django",
+        "Python",
+        "Bootstrap 5",
+        "SQLite",
+        "HTML",
+        "CSS",
+        "Email Integration",
+        "User Authentication",
+      ],
+      githubLink: "https://github.com/akashkhedekar8080/Inkwell",
+    },
+    {
       title: "Meetarise",
       description:
         "A modern web dashboard built with React and Material UI, featuring advanced state management and real-time data visualization.",
