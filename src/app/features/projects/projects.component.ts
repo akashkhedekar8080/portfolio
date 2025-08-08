@@ -153,22 +153,26 @@ export class ProjectsComponent {
       githubLink: "https://github.com/akashkhedekar8080/youtube-blog",
     },
     {
-      title: "Meetarise",
+      title: "NgRx Signals Task Manager",
       description:
-        "A modern web dashboard built with React and Material UI, featuring advanced state management and real-time data visualization.",
+        "A modern Angular 19 application demonstrating advanced state management with NgRx Signals Store. Features real-time CRUD operations, reactive charts, and signal-based architecture.",
       achievements: [
-        "Implemented Redux for efficient state management, optimizing data retrieval by 40%.",
-        "Developed authentication with JWT, Google, and Outlook sign-in integration.",
-        "Reduced dashboard loading time by 45% using optimized rendering techniques.",
+        "Built cutting-edge Angular 19 app with NgRx Signals Store for simplified state management, eliminating traditional actions/reducers boilerplate.",
+        "Implemented reactive charts using computed signals for real-time task distribution and trend visualization that auto-update with store changes.",
+        "Architected modular signal store with methods, effects, computed properties, and state management for optimal performance and maintainability.",
       ],
-      image: "/assets/meetarise.jpg",
+      image: "/assets/ngrx-signals-task.jpg",
       technologies: [
-        "React",
-        "Material UI",
-        "Redux",
-        "JWT Auth",
-        "Google & Outlook Auth",
+        "Angular 19",
+        "NgRx Signals Store",
+        "TypeScript",
+        "Computed Signals",
+        "Chart.js",
+        "Reactive Forms",
+        "Signal Effects",
+        "Angular Material",
       ],
+      githubLink: "https://github.com/akashkhedekar8080/task-signal-store",
     },
     {
       title: "Student Data Management Platform",
@@ -191,28 +195,7 @@ export class ProjectsComponent {
       ],
       githubLink: "https://github.com/akashkhedekar8080/student-entry",
     },
-    {
-      title: "Angular 19 NgRx Signals Task Manager",
-      description:
-        "A modern Angular 19 application demonstrating advanced state management with NgRx Signals Store. Features real-time CRUD operations, reactive charts, and signal-based architecture.",
-      achievements: [
-        "Built cutting-edge Angular 19 app with NgRx Signals Store for simplified state management, eliminating traditional actions/reducers boilerplate.",
-        "Implemented reactive charts using computed signals for real-time task distribution and trend visualization that auto-update with store changes.",
-        "Architected modular signal store with methods, effects, computed properties, and state management for optimal performance and maintainability.",
-      ],
-      image: "/assets/ngrx-signals-task.jpg",
-      technologies: [
-        "Angular 19",
-        "NgRx Signals Store",
-        "TypeScript",
-        "Computed Signals",
-        "Chart.js",
-        "Reactive Forms",
-        "Signal Effects",
-        "Angular Material",
-      ],
-      githubLink: "https://github.com/akashkhedekar8080/task-signal-store",
-    },
+
     {
       title: "RxJS Operator Explorer",
       description:
@@ -232,6 +215,24 @@ export class ProjectsComponent {
         "Angular Material",
       ],
       githubLink: "https://github.com/akashkhedekar8080/rxjs",
+    },
+    {
+      title: "Meetarise",
+      description:
+        "A modern web dashboard built with React and Material UI, featuring advanced state management and real-time data visualization.",
+      achievements: [
+        "Implemented Redux for efficient state management, optimizing data retrieval by 40%.",
+        "Developed authentication with JWT, Google, and Outlook sign-in integration.",
+        "Reduced dashboard loading time by 45% using optimized rendering techniques.",
+      ],
+      image: "/assets/meetarise.jpg",
+      technologies: [
+        "React",
+        "Material UI",
+        "Redux",
+        "JWT Auth",
+        "Google & Outlook Auth",
+      ],
     },
   ];
 }
