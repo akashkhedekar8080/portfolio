@@ -55,11 +55,13 @@
       color: #ff3333;
       margin-bottom: 1rem;
       font-weight: 600;
+      max-width: 42rem;
+      margin: 0 auto 2rem;
     }
 
     .hero-subtitle {
       color: #888;
-      max-width: 600px;
+      max-width: 42rem;
       margin: 0 auto 2rem;
       line-height: 1.6;
       font-size: clamp(1rem, 3vw, 1.1rem);
