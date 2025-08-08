@@ -96,7 +96,7 @@ export class ProjectsComponent {
       ],
       image: "/assets/tasknova.jpg",
       technologies: [
-        "Angular 18",
+        "Angular 20",
         "Django",
         "Django REST Framework",
         "TypeScript",
@@ -129,6 +129,28 @@ export class ProjectsComponent {
         "User Authentication",
       ],
       githubLink: "https://github.com/akashkhedekar8080/Inkwell",
+    },
+    {
+      title: "YouTube Blog Platform",
+      description:
+        "A dynamic full-stack blogging platform built with Node.js and Express, featuring MongoDB integration, file uploads, and comprehensive content management system.",
+      achievements: [
+        "Developed full-stack Node.js and Express blogging platform with MongoDB, implementing authentication, file uploads, and CRUD operations for dynamic content management.",
+        "Designed responsive UI using EJS templates and Bootstrap, ensuring seamless cross-device user experience.",
+        "Enabled users to create, edit, and delete blog posts with real-time content updates and optimized database queries.",
+      ],
+      image: "/assets/youtube-blog.jpg",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "EJS Templates",
+        "Bootstrap",
+        "File Upload",
+        "User Authentication",
+        "CRUD Operations",
+      ],
+      githubLink: "https://github.com/akashkhedekar8080/youtube-blog",
     },
     {
       title: "Meetarise",
@@ -168,6 +190,28 @@ export class ProjectsComponent {
         "Angular Material",
       ],
       githubLink: "https://github.com/akashkhedekar8080/student-entry",
+    },
+    {
+      title: "Angular 19 NgRx Signals Task Manager",
+      description:
+        "A modern Angular 19 application demonstrating advanced state management with NgRx Signals Store. Features real-time CRUD operations, reactive charts, and signal-based architecture.",
+      achievements: [
+        "Built cutting-edge Angular 19 app with NgRx Signals Store for simplified state management, eliminating traditional actions/reducers boilerplate.",
+        "Implemented reactive charts using computed signals for real-time task distribution and trend visualization that auto-update with store changes.",
+        "Architected modular signal store with methods, effects, computed properties, and state management for optimal performance and maintainability.",
+      ],
+      image: "/assets/ngrx-signals-task.jpg",
+      technologies: [
+        "Angular 19",
+        "NgRx Signals Store",
+        "TypeScript",
+        "Computed Signals",
+        "Chart.js",
+        "Reactive Forms",
+        "Signal Effects",
+        "Angular Material",
+      ],
+      githubLink: "https://github.com/akashkhedekar8080/task-signal-store",
     },
     {
       title: "RxJS Operator Explorer",
